@@ -6,7 +6,7 @@
 - **Shift Asal:** A
 
 ## Video Demo Aplikasi
-![Demo](Investaris Buku - H1D023083.mp4)
+![Demo Video - Inventaris Buku H1D023083](./Investaris%20Buku%20-%20H1D023083.mp4)**
 
 ## Deskripsi Aplikasi
 Aplikasi Inventaris Buku adalah aplikasi mobile berbasis Flutter yang terhubung dengan REST API CodeIgniter 4 untuk mengelola inventaris buku. Aplikasi ini memungkinkan pengguna untuk melakukan operasi CRUD (Create, Read, Update, Delete) pada data buku dengan fitur autentikasi.
