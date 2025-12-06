@@ -356,28 +356,6 @@ class BookBloc {
 #### ApiUrl (`lib/helpers/api_url.dart`)
 **Fungsi:** Centralized configuration untuk URL endpoint API, memudahkan maintenance dan perubahan base URL.
 
-## Fitur Aplikasi
-
-1. **Autentikasi User**
-   - Login dengan username/email dan password
-   - Registrasi user baru dengan validasi
-   - Token-based authentication dengan Bearer token
-   - Auto-logout dan session management
-
-2. **Manajemen Inventaris Buku**
-   - Tampil list buku dengan informasi ringkas
-   - Tambah buku baru dengan form lengkap
-   - Edit data buku dengan pre-filled form
-   - Hapus buku dengan konfirmasi
-   - Detail buku dengan informasi lengkap
-
-3. **User Experience**
-   - Loading indicators untuk operasi async
-   - Error handling dengan user-friendly messages
-   - Pull-to-refresh untuk update data
-   - Responsive UI dengan Material Design
-   - Form validasi real-time
-
 ## Teknologi yang Digunakan
 
 ### Frontend (Flutter)
@@ -393,29 +371,6 @@ class BookBloc {
 - **Authentication:** Custom token-based auth
 - **API Architecture:** RESTful API
 - **Response Format:** JSON
-
-## Cara Menjalankan Aplikasi
-
-### Prerequisites
-1. Flutter SDK (versi 3.x atau lebih baru)
-2. Android Studio atau VS Code
-3. Web browser (Chrome) atau device Android/iOS
-4. XAMPP atau web server dengan PHP 8.x
-5. MySQL database
-
-### Setup Backend (CodeIgniter 4)
-1. Clone/download project CodeIgniter 4
-2. Import database dari file migration
-3. Konfigurasi database di `app/Config/Database.php`
-4. Jalankan `php spark serve` atau setup di XAMPP
-5. Gunakan IP Address pribadi, misal saya di : `http://192.168.100.17:8080`
-
-### Setup Frontend (Flutter)
-1. Clone repository ini
-2. Buka terminal di direktori project
-3. Jalankan `flutter pub get` untuk install dependencies
-4. Untuk web development: `flutter run -d chrome --web-browser-flag="--disable-web-security" --web-browser-flag="--user-data-dir=D:/temp"`
-5. Untuk mobile: `flutter run` (pastikan device/emulator terhubung)
 
 ## Struktur Project
 ```
